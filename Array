@@ -1,0 +1,22 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int a,b;
+    scanf("%d", &a);
+    int arr[a],i;
+    for(i = 0;i < a;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    b = a-1;
+    for(i=b;i>=0;i--)
+    {
+        printf("%d ",arr[i]);
+    };
+}
